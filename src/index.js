@@ -2,6 +2,9 @@ import $ from 'jquery';
 import 'bootstrap';
 import './index.scss';
 import dawgs from './dawgGetter';
+import catsRule from '../catsrule.jpg';
+
+$('#catsRule').attr('src', catsRule);
 
 const createDogCards = (dogs) => {
   let newString = '';
